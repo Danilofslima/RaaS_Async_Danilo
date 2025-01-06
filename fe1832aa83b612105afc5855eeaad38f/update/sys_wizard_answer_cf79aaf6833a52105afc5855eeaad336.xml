@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Suggestions</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Suggestions</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">48809368dc1212104f34465061b06a71</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 18:55:17</sys_created_on>
+        <sys_id>cf79aaf6833a52105afc5855eeaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Suggestions</sys_name>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name>sys_wizard_answer_cf79aaf6833a52105afc5855eeaad336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 18:55:17</sys_updated_on>
+        <table/>
+        <target_url>x_1488662_raas_suggestions.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
