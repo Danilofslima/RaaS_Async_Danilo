@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Ratings" section_id="cb45a5c4838f52105afc5855eeaad368" sys_domain="global" table="x_1488662_raas_media" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>awards</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-07 11:09:47</sys_created_on>
+            <sys_id>5b45e5c4838f52105afc5855eeaad316</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1488662_raas_media" sys_domain="global" view="Default view">cb45a5c4838f52105afc5855eeaad368</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-07 11:09:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>metascore</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-07 11:09:47</sys_created_on>
+            <sys_id>df45e5c4838f52105afc5855eeaad316</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1488662_raas_media" sys_domain="global" view="Default view">cb45a5c4838f52105afc5855eeaad368</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-07 11:09:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-07 11:09:47</sys_created_on>
+            <sys_id>5745e5c4838f52105afc5855eeaad317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1488662_raas_media" sys_domain="global" view="Default view">cb45a5c4838f52105afc5855eeaad368</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-07 11:09:47</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>imdb_rating</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-07 11:09:47</sys_created_on>
+            <sys_id>db45e5c4838f52105afc5855eeaad317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1488662_raas_media" sys_domain="global" view="Default view">cb45a5c4838f52105afc5855eeaad368</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-07 11:09:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>avg_rate</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-07 11:09:47</sys_created_on>
+            <sys_id>5345e5c4838f52105afc5855eeaad318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1488662_raas_media" sys_domain="global" view="Default view">cb45a5c4838f52105afc5855eeaad368</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-07 11:09:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Ratings</caption>
+            <header>false</header>
+            <name>x_1488662_raas_media</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-07 11:09:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb45a5c4838f52105afc5855eeaad368</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1488662_raas_media</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+            <sys_update_name>sys_ui_section_cb45a5c4838f52105afc5855eeaad368</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-07 11:09:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

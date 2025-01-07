@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Media Review">9497717383f612105afc5855eeaad3e6</catalog_item>
+        <catalog_variable>IO:003cde08838392105afc5855eeaad359</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 16:27:47</sys_created_on>
+        <sys_id>a70e66cc83c392105afc5855eeaad305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_a70e66cc83c392105afc5855eeaad305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 16:27:47</sys_updated_on>
+        <table/>
+        <ui_policy display_value="set hiden if choice is empty">c3dd22cc83c392105afc5855eeaad399</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>poster</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=a70e66cc83c392105afc5855eeaad305"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</application>
+        <file_path/>
+        <instance_id>bce32464db12b5584162684e1396197c</instance_id>
+        <instance_name>dev199631</instance_name>
+        <name>catalog_ui_policy_action_a70e66cc83c392105afc5855eeaad305</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Media Review">9497717383f612105afc5855eeaad3e6</catalog_item><catalog_variable>IO:003cde08838392105afc5855eeaad359</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-07 16:27:47</sys_created_on><sys_id>a70e66cc83c392105afc5855eeaad305</sys_id><sys_mod_count>0</sys_mod_count><sys_name>poster</sys_name><sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package><sys_policy/><sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope><sys_update_name>catalog_ui_policy_action_a70e66cc83c392105afc5855eeaad305</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-07 16:27:47</sys_updated_on><table/><ui_policy display_value="set hiden if choice is empty">c3dd22cc83c392105afc5855eeaad399</ui_policy><value/><value_action>ignore</value_action><variable>poster</variable><variable_set/><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=a70e66cc83c392105afc5855eeaad305"/></record_update>]]></payload>
+        <payload_hash>2062916151</payload_hash>
+        <record_name>poster</record_name>
+        <reverted_from/>
+        <source>81c9fc3783b212105afc5855eeaad358</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 16:27:47</sys_created_on>
+        <sys_id>a91e66cc83c392105afc5855eeaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1944197ff140000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 16:27:47</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>ad1e66cc5ac3921063262c01f4a87ea0</update_guid>
+        <update_guid_history>ad1e66cc5ac3921063262c01f4a87ea0:2062916151</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="poster">00dee600830792105afc5855eeaad35a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 16:30:58</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>703fdd28b03f4fd4b7b9ddea3495b810</sys_id>
+        <sys_metadata>a70e66cc83c392105afc5855eeaad305</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_scope_delete display_value="">2fb42e5f968d4e2e9fc58c8dbd520281</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_a70e66cc83c392105afc5855eeaad305</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_a70e66cc83c392105afc5855eeaad305">a91e66cc83c392105afc5855eeaad3a1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 16:30:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

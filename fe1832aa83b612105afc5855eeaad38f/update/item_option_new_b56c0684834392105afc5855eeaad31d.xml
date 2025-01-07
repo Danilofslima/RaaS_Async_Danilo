@@ -18,15 +18,15 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path/>
-        <dynamic_value_field/>
+        <dynamic_value_dot_walk_path>poster</dynamic_value_dot_walk_path>
+        <dynamic_value_field display_value="Qual Media você quer avaliar?">988cfdb783f612105afc5855eeaad386</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>description</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>false</hidden>
+        <hidden>true</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -39,17 +39,17 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>true</map_to_field>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>description</name>
+        <name>question_poster_url</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>600</order>
+        <order>150</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Deixe um comentário sobre a Media aqui</question_text>
+        <question_text>Poster URL</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -69,28 +69,28 @@
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
 */]]></save_script>
-        <scale_max>10</scale_max>
-        <scale_min>1</scale_min>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
         <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-06 18:55:13</sys_created_on>
-        <sys_id>13360233833a12105afc5855eeaad3ce</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>description</sys_name>
+        <sys_created_on>2025-01-07 14:01:19</sys_created_on>
+        <sys_id>b56c0684834392105afc5855eeaad31d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Poster URL</sys_name>
         <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
-        <sys_update_name>item_option_new_13360233833a12105afc5855eeaad3ce</sys_update_name>
+        <sys_update_name>item_option_new_b56c0684834392105afc5855eeaad31d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-07 01:02:35</sys_updated_on>
+        <sys_updated_on>2025-01-07 16:10:32</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>2</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=13360233833a12105afc5855eeaad3ce"/>
-    <fx_price action="delete_multiple" query="id=13360233833a12105afc5855eeaad3ce"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=b56c0684834392105afc5855eeaad31d"/>
+    <fx_price action="delete_multiple" query="id=b56c0684834392105afc5855eeaad31d"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>price_if_checked</field>
-        <id>13360233833a12105afc5855eeaad3ce</id>
+        <id>b56c0684834392105afc5855eeaad31d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-06 18:55:13</sys_created_on>
-        <sys_id>1b364eb3833a12105afc5855eeaad389</sys_id>
+        <sys_created_on>2025-01-07 14:01:19</sys_created_on>
+        <sys_id>c49cc684834392105afc5855eeaad310</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-06 18:55:13</sys_updated_on>
+        <sys_updated_on>2025-01-07 14:01:19</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,17 +129,28 @@
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>rec_price_if_checked</field>
-        <id>13360233833a12105afc5855eeaad3ce</id>
+        <id>b56c0684834392105afc5855eeaad31d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-06 18:55:13</sys_created_on>
-        <sys_id>9f364eb3833a12105afc5855eeaad388</sys_id>
+        <sys_created_on>2025-01-07 14:01:19</sys_created_on>
+        <sys_id>809cc684834392105afc5855eeaad30f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-06 18:55:13</sys_updated_on>
+        <sys_updated_on>2025-01-07 14:01:19</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b56c0684834392105afc5855eeaad31d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 14:13:34</sys_created_on>
+        <sys_id>635fc6c4834392105afc5855eeaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 14:13:34</sys_updated_on>
+        <table>item_option_new</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

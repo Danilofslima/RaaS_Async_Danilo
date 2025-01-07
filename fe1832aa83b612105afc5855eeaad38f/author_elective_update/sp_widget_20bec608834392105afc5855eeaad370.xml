@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope) {
+    /* widget controller */
+    var c = this;
+    
+    // Watch for changes in the 'question_filme' field
+    $scope.$watch(function() {
+        return $scope.page.g_form.getValue('question_filme');
+    }, function(newValue, oldValue) {
+        if (newValue !== oldValue) {
+            c.sendData(newValue);
+        }
+    });
+
+
+    // Function to send data to the server and update the poster URL
+    c.sendData = function(filmeSysId) {
+        c.data.sysid = filmeSysId; // Set the selected 'filme' sys_id to send to the server
+        c.server.update().then(function(response) {
+            c.data.posterurl = response.data.posterurl; // Update the poster URL with the response from the server
+        });
+    };
+};
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>PosterRender</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    /* Server script to handle fetching the poster URL based on the 'question_filme' parameter */
+
+
+    data.uName = gs.getUserDisplayName(); // Get the user's display name
+
+
+		
+    // Check if input.sysid exists and fetch the corresponding record
+    if (input && input.sysid) {
+        var gr = new GlideRecord("x_1488662_film_r_0_filmes");
+        if (gr.get(input.sysid)) { // Fetch the record with the given sys_id
+            data.posterurl = gr.getValue("posterurl"); // Get the poster URL
+    				data.avgNota = gr.getValue('nota_media');
+				}
+    }
+		
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 14:13:06</sys_created_on>
+        <sys_id>20bec608834392105afc5855eeaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PosterRender</sys_name>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name>sp_widget_20bec608834392105afc5855eeaad370</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 14:13:06</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  
+  <p>
+    A nota média do Filme: {{c.data.avgNota}}
+  </p>
+  
+<!--  {{c.data.posterurl}}-->
+  
+   <img 
+        style="align: baseline;" 
+        title="{{c.data.title}}" 
+        ng-src="{{c.data.posterurl}}" 
+        alt="{{c.data.title}}" 
+        max-width="100%" 
+        height="300px" 
+        align="bottom" 
+        border="0" 
+        hspace="-1" 
+        vspace="0" 
+    />
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="DELETE">
+        <id>20bec608834392105afc5855eeaad370</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 14:13:05</sys_created_on>
+        <sys_id>1c4f4608834392105afc5855eeaad310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 14:13:05</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</application>
+        <file_path/>
+        <instance_id>bce32464db12b5584162684e1396197c</instance_id>
+        <instance_name>dev199631</instance_name>
+        <name>sp_widget_20bec608834392105afc5855eeaad370</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function($scope) {
+    /* widget controller */
+    var c = this;
+    
+    // Watch for changes in the 'question_filme' field
+    $scope.$watch(function() {
+        return $scope.page.g_form.getValue('question_filme');
+    }, function(newValue, oldValue) {
+        if (newValue !== oldValue) {
+            c.sendData(newValue);
+        }
+    });
+
+
+    // Function to send data to the server and update the poster URL
+    c.sendData = function(filmeSysId) {
+        c.data.sysid = filmeSysId; // Set the selected 'filme' sys_id to send to the server
+        c.server.update().then(function(response) {
+            c.data.posterurl = response.data.posterurl; // Update the poster URL with the response from the server
+        });
+    };
+};
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;PosterRender&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+    /* Server script to handle fetching the poster URL based on the 'question_filme' parameter */
+
+
+    data.uName = gs.getUserDisplayName(); // Get the user's display name
+
+
+		
+    // Check if input.sysid exists and fetch the corresponding record
+    if (input &amp;&amp; input.sysid) {
+        var gr = new GlideRecord("x_1488662_film_r_0_filmes");
+        if (gr.get(input.sysid)) { // Fetch the record with the given sys_id
+            data.posterurl = gr.getValue("posterurl"); // Get the poster URL
+    				data.avgNota = gr.getValue('nota_media');
+				}
+    }
+		
+})();
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-07 14:13:06&lt;/sys_created_on&gt;&lt;sys_id&gt;20bec608834392105afc5855eeaad370&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;PosterRender&lt;/sys_name&gt;&lt;sys_package display_value="RaaS Danilo" source="x_1488662_raas"&gt;fe1832aa83b612105afc5855eeaad38f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RaaS Danilo"&gt;fe1832aa83b612105afc5855eeaad38f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_20bec608834392105afc5855eeaad370&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-07 14:13:06&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+&lt;!-- your widget template --&gt;
+  
+  &lt;p&gt;
+    A nota média do Filme: {{c.data.avgNota}}
+  &lt;/p&gt;
+  
+&lt;!--  {{c.data.posterurl}}--&gt;
+  
+   &lt;img 
+        style="align: baseline;" 
+        title="{{c.data.title}}" 
+        ng-src="{{c.data.posterurl}}" 
+        alt="{{c.data.title}}" 
+        max-width="100%" 
+        height="300px" 
+        align="bottom" 
+        border="0" 
+        hspace="-1" 
+        vspace="0" 
+    /&gt;
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;20bec608834392105afc5855eeaad370&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-07 14:13:05&lt;/sys_created_on&gt;&lt;sys_id&gt;1c4f4608834392105afc5855eeaad310&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-07 14:13:05&lt;/sys_updated_on&gt;&lt;table&gt;sp_widget&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1396338245</payload_hash>
+        <record_name>PosterRender</record_name>
+        <reverted_from/>
+        <source>81c9fc3783b212105afc5855eeaad358</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 14:13:06</sys_created_on>
+        <sys_id>604f4e08834392105afc5855eeaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194411cadd80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 14:13:06</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>644f4e080343921050a297aaacbe9c60</update_guid>
+        <update_guid_history>644f4e080343921050a297aaacbe9c60:-1396338245</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="PosterRender">5dec5288838392105afc5855eeaad35b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 15:12:42</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>2bda977b694e4ff49f4255cac2a5b101</sys_id>
+        <sys_metadata>20bec608834392105afc5855eeaad370</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PosterRender</sys_name>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_scope_delete display_value="">2fb42e5f968d4e2e9fc58c8dbd520281</sys_scope_delete>
+        <sys_update_name>sp_widget_20bec608834392105afc5855eeaad370</sys_update_name>
+        <sys_update_version display_value="sp_widget_20bec608834392105afc5855eeaad370">604f4e08834392105afc5855eeaad361</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 15:12:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

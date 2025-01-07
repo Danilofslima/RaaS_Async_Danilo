@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Media Review">9497717383f612105afc5855eeaad3e6</catalog_item>
+        <catalog_variable>IO:b4d4ca3f83f612105afc5855eeaad39c</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>200</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 13:45:12</sys_created_on>
+        <sys_id>fbd84200834392105afc5855eeaad387</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>question_rating</sys_name>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_fbd84200834392105afc5855eeaad387</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-07 13:58:57</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Set Mandatory fields">58984640834392105afc5855eeaad332</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>question_rating</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=fbd84200834392105afc5855eeaad387"/>
+</record_update>
