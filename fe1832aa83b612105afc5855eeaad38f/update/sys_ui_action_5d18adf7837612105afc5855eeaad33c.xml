@@ -32,13 +32,8 @@
         <order>100</order>
         <script><![CDATA[function openUrl() {
     const url = g_form.getValue('website');
-    if (url) {
-        top.window.open(url, '_blank'); // Abre em uma nova aba
-    } else {
-        g_form.addErrorMessage("O campo 'website' está vazio ou inválido.");
-    }
-}
-]]></script>
+    top.window.open(url, '_blank'); // Abre em uma nova aba
+}]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -49,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5d18adf7837612105afc5855eeaad33c</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Link to website</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
@@ -57,7 +52,7 @@
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name>sys_ui_action_5d18adf7837612105afc5855eeaad33c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-06 17:06:44</sys_updated_on>
+        <sys_updated_on>2025-01-06 23:53:24</sys_updated_on>
         <table>x_1488662_raas_media</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
