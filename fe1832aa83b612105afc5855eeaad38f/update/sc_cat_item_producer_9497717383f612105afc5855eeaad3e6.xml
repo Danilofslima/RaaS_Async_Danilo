@@ -90,14 +90,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-06 17:52:21</sys_created_on>
         <sys_id>9497717383f612105afc5855eeaad3e6</sys_id>
-        <sys_mod_count>96</sys_mod_count>
+        <sys_mod_count>97</sys_mod_count>
         <sys_name>Media Review</sys_name>
         <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name>sc_cat_item_producer_9497717383f612105afc5855eeaad3e6</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-07 17:01:34</sys_updated_on>
+        <sys_updated_on>2025-01-07 20:34:27</sys_updated_on>
         <table_name>x_1488662_raas_review</table_name>
         <taxonomy_topic/>
         <template/>
@@ -105,7 +105,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>96</version>
+        <version>97</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
