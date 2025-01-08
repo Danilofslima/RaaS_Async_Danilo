@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1488662_raas_review">state=2^EQ<item display_value="Awaiting moderator approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Awaiting Moderator Approval </label>
+        <name>Awaiting Moderator Approval </name>
+        <order>200</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-08 20:18:57</sys_created_on>
+        <sys_id>219ce064830316105afc5855eeaad388</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Awaiting Moderator Approval </sys_name>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name>sys_process_flow_219ce064830316105afc5855eeaad388</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-08 20:32:23</sys_updated_on>
+        <table>x_1488662_raas_review</table>
+    </sys_process_flow>
+</record_update>
