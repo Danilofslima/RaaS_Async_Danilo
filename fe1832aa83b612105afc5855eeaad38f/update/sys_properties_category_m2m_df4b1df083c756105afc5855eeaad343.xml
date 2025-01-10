@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="RaaS">4c06157c838756105afc5855eeaad3ec</category>
+        <order>500</order>
+        <property display_value="x_1488662_raas.integratrion_retry_count" name="x_1488662_raas.integratrion_retry_count">76a8d13c838756105afc5855eeaad3c5</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-09 18:21:33</sys_created_on>
+        <sys_id>df4b1df083c756105afc5855eeaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1488662_raas.integratrion_retry_count.RaaS</sys_name>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_df4b1df083c756105afc5855eeaad343</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-09 18:21:33</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
