@@ -16,11 +16,12 @@
         <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>convert_string_into_array</internal_name>
-        <label_cache>[{"name":"{{action.string}}","label":"action➛String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.separator}}","label":"action➛Separator","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.string}}","label":"action➛String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.separator}}","label":"action➛Separator","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d72782b4-c57e-4838-8b0f-896b3dc5b66e].array}}","label":"step➛Script step➛Array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD98079c826c4312101bcd34269e30178e","child_label":"Element","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"element","child_uiUniqueId":"8c8044bd-d435-4a77-91d6-86466de011e4","uiUniqueId":"51e999a5-25b1-4274-b7a2-8f6a00652242"}}]</label_cache>
         <master_snapshot>1fbeb2818383d6105afc5855eeaad398</master_snapshot>
         <master_snapshot_digest/>
         <name>Convert String into String Array</name>
         <natlang/>
+        <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
         <state>published</state>
@@ -30,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>25cc3ecd8343d6105afc5855eeaad346</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Convert String into String Array</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
@@ -38,7 +39,7 @@
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_25cc3ecd8343d6105afc5855eeaad346</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:54</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:50:55</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -52,10 +53,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-10 20:13:02</sys_created_on>
         <sys_id>966efa418383d6105afc5855eeaad3c6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:13:02</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2025-01-13 10:35:34</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
         <variable display_value="Action Status">8a6efa418383d6105afc5855eeaad3a9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -72,7 +73,43 @@
         <value>0</value>
         <variable display_value="Don't Treat as Error">026efa418383d6105afc5855eeaad3af</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_25cc3ecd8343d6105afc5855eeaad346^id=25cc3ecd8343d6105afc5855eeaad346"/>
+    <sys_element_mapping action="delete_multiple" query="id=25cc3ecd8343d6105afc5855eeaad346"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>array</field>
+        <id>25cc3ecd8343d6105afc5855eeaad346</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 10:35:34</sys_created_on>
+        <sys_id>28079c82834312105afc5855eeaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 10:35:34</sys_updated_on>
+        <table>var__m_sys_hub_action_output_25cc3ecd8343d6105afc5855eeaad346</table>
+        <value>{{step[d72782b4-c57e-4838-8b0f-896b3dc5b66e].array}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>25cc3ecd8343d6105afc5855eeaad346</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-10 20:13:02</sys_created_on>
+        <sys_id>526efa418383d6105afc5855eeaad3c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-10 20:13:02</sys_updated_on>
+        <table>var__m_sys_hub_action_output_25cc3ecd8343d6105afc5855eeaad346</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>25cc3ecd8343d6105afc5855eeaad346</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-10 20:13:02</sys_created_on>
+        <sys_id>9e6efa418383d6105afc5855eeaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-10 20:13:02</sys_updated_on>
+        <table>var__m_sys_hub_action_output_25cc3ecd8343d6105afc5855eeaad346</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=25cc3ecd8343d6105afc5855eeaad346^sys_idNOT INca6efa418383d6105afc5855eeaad372"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Convert String into String Array">25cc3ecd8343d6105afc5855eeaad346</action>
@@ -91,10 +128,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-10 20:13:01</sys_created_on>
         <sys_id>ca6efa418383d6105afc5855eeaad372</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:48</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:50:00</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ca6efa418383d6105afc5855eeaad372"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -119,11 +156,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-10 20:13:01</sys_created_on>
         <sys_id>4e6efa418383d6105afc5855eeaad3a5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:48</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:50:00</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
-// ... code ...&#13;
+&#13;
 outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13;
 })(inputs, outputs);&#13;
 </value>
@@ -181,7 +218,90 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ca6efa418383d6105afc5855eeaad372^id=ca6efa418383d6105afc5855eeaad372"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ca6efa418383d6105afc5855eeaad372"/>
     <sys_translated_text action="delete_multiple" query="documentkey=ca6efa418383d6105afc5855eeaad372"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=ca6efa418383d6105afc5855eeaad372^sys_idNOT IN866efa418383d6105afc5855eeaad378,ca6efa418383d6105afc5855eeaad37b"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ca6efa418383d6105afc5855eeaad372^sys_idNOT IN774a50c6834312105afc5855eeaad374,fb4a50c6834312105afc5855eeaad361"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>separator</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">ca6efa418383d6105afc5855eeaad372</model>
+        <model_id>ca6efa418383d6105afc5855eeaad372</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_ca6efa418383d6105afc5855eeaad372</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 10:49:59</sys_created_on>
+        <sys_id>774a50c6834312105afc5855eeaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 10:49:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -243,8 +363,8 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-10 20:13:01</sys_created_on>
-        <sys_id>866efa418383d6105afc5855eeaad378</sys_id>
+        <sys_created_on>2025-01-13 10:49:59</sys_created_on>
+        <sys_id>fb4a50c6834312105afc5855eeaad361</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -252,7 +372,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:13:01</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:49:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -265,103 +385,20 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>Separator</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label/>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Script step">ca6efa418383d6105afc5855eeaad372</model>
-        <model_id>ca6efa418383d6105afc5855eeaad372</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_ca6efa418383d6105afc5855eeaad372</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-10 20:13:01</sys_created_on>
-        <sys_id>ca6efa418383d6105afc5855eeaad37b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:13:01</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=ca6efa418383d6105afc5855eeaad372^sys_idNOT IN466efa418383d6105afc5855eeaad380"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ca6efa418383d6105afc5855eeaad372^sys_idNOT INd8079c82834312105afc5855eeaad390"/>
     <sys_complex_object action="INSERT_OR_UPDATE">
         <label/>
-        <name>FDc66efa41c183d61028b87509b6bd457e</name>
+        <name>FD98079c826c4312101bcd34269e30178e</name>
         <namespace>FlowDesigner</namespace>
         <scope_name>fe1832aa83b612105afc5855eeaad38f</scope_name>
-        <serialized_content>{"FlowDesigner:FDc66efa41c183d61028b87509b6bd457e":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDc66efa41c183d61028b87509b6bd457e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Array String\",\"mandatory\":\"true\",\"child_name\":\"Element\",\"uiUniqueId\":\"29e14326-e597-4f1a-8367-8e2fe4f4c0ea\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDc66efa41c183d61028b87509b6bd457e\",\"child_label\":\"Element\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f86fe52b-d2c0-4182-980d-f788fddcbfd7\"}"}}</serialized_content>
+        <serialized_content>{"FlowDesigner:FD98079c826c4312101bcd34269e30178e":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD98079c826c4312101bcd34269e30178e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Array\",\"mandatory\":\"true\",\"child_name\":\"element\",\"uiUniqueId\":\"51e999a5-25b1-4274-b7a2-8f6a00652242\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD98079c826c4312101bcd34269e30178e\",\"child_label\":\"Element\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"8c8044bd-d435-4a77-91d6-86466de011e4\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-10 20:13:01</sys_created_on>
+        <sys_created_on>2025-01-13 10:35:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8a6efa418383d6105afc5855eeaad37e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>5c079c82834312105afc5855eeaad38e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -369,14 +406,14 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:53</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:50:53</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Element,child_name=Element,child_type=string,child_type_label=String,child_uiUniqueId=f86fe52b-d2c0-4182-980d-f788fddcbfd7,co_type_name=FDc66efa41c183d61028b87509b6bd457e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=29e14326-e597-4f1a-8367-8e2fe4f4c0ea</attributes>
+        <attributes>child_label=Element,child_name=element,child_type=string,child_type_label=String,child_uiUniqueId=8c8044bd-d435-4a77-91d6-86466de011e4,co_type_name=FD98079c826c4312101bcd34269e30178e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=51e999a5-25b1-4274-b7a2-8f6a00652242</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -400,7 +437,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>array_string</element>
+        <element>array</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -409,7 +446,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Array String</label>
+        <label>Array</label>
         <mandatory>true</mandatory>
         <max_length>65000</max_length>
         <model display_value="Script step">ca6efa418383d6105afc5855eeaad372</model>
@@ -433,16 +470,16 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-10 20:13:01</sys_created_on>
-        <sys_id>466efa418383d6105afc5855eeaad380</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2025-01-13 10:35:33</sys_created_on>
+        <sys_id>d8079c82834312105afc5855eeaad390</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:13:01</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:39:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -456,19 +493,19 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ca6efa418383d6105afc5855eeaad372"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ca6efa418383d6105afc5855eeaad372^sys_idNOT IN826efa418383d6105afc5855eeaad39d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ca6efa418383d6105afc5855eeaad372^sys_idNOT IN54079c82834312105afc5855eeaad399"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>array_string</element>
+        <element>array</element>
         <help/>
         <hint/>
-        <label>Array String</label>
+        <label>Array</label>
         <language>en</language>
         <name>var__m_sys_hub_step_ext_output_ca6efa418383d6105afc5855eeaad372</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-10 20:13:01</sys_created_on>
-        <sys_id>826efa418383d6105afc5855eeaad39d</sys_id>
+        <sys_created_on>2025-01-13 10:35:33</sys_created_on>
+        <sys_id>54079c82834312105afc5855eeaad399</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
@@ -476,7 +513,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:13:01</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:35:33</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -649,7 +686,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4a6efa418383d6105afc5855eeaad346"/>
-    <sys_hub_action_output action="delete_multiple" query="model=25cc3ecd8343d6105afc5855eeaad346^sys_idNOT IN026efa418383d6105afc5855eeaad3af,8a6efa418383d6105afc5855eeaad3a9"/>
+    <sys_hub_action_output action="delete_multiple" query="model=25cc3ecd8343d6105afc5855eeaad346^sys_idNOT IN026efa418383d6105afc5855eeaad3af,8a6efa418383d6105afc5855eeaad3a9,a4079c82834312105afc5855eeaad3ab"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -697,7 +734,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_25cc3ecd8343d6105afc5855eeaad346</name>
         <next_element/>
-        <order>2</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -715,14 +752,14 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-10 20:13:02</sys_created_on>
         <sys_id>026efa418383d6105afc5855eeaad3af</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:53</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:50:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -784,7 +821,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_25cc3ecd8343d6105afc5855eeaad346</name>
         <next_element/>
-        <order>1</order>
+        <order>2</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -802,14 +839,14 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-10 20:13:01</sys_created_on>
         <sys_id>8a6efa418383d6105afc5855eeaad3a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:13:01</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:35:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -824,6 +861,116 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8a6efa418383d6105afc5855eeaad3a9"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=8a6efa418383d6105afc5855eeaad3a9"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDe8079c82094312102a7fade038fd40aa</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fe1832aa83b612105afc5855eeaad38f</scope_name>
+        <serialized_content>{"FlowDesigner:FDe8079c82094312102a7fade038fd40aa":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDe8079c82094312102a7fade038fd40aa.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Array\",\"mandatory\":\"true\",\"child_name\":\"element\",\"uiUniqueId\":\"6a2ca44b-6277-4df6-90eb-32cdbd332cef\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDe8079c82094312102a7fade038fd40aa\",\"child_label\":\"Element\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9e128404-9448-4477-b3fb-b30d00586bff\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 10:35:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac079c82834312105afc5855eeaad3aa</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 10:50:54</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Element,child_name=element,child_type=string,child_type_label=String,child_uiUniqueId=9e128404-9448-4477-b3fb-b30d00586bff,co_type_name=FDe8079c82094312102a7fade038fd40aa,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=6a2ca44b-6277-4df6-90eb-32cdbd332cef</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>array</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Array</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Convert String into String Array">25cc3ecd8343d6105afc5855eeaad346</model>
+        <model_id>25cc3ecd8343d6105afc5855eeaad346</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_25cc3ecd8343d6105afc5855eeaad346</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 10:35:34</sys_created_on>
+        <sys_id>a4079c82834312105afc5855eeaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 10:35:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a4079c82834312105afc5855eeaad3ab"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a4079c82834312105afc5855eeaad3ab"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=25cc3ecd8343d6105afc5855eeaad346"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=25cc3ecd8343d6105afc5855eeaad346^sys_idNOT INda6efa418383d6105afc5855eeaad3c7"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
@@ -884,7 +1031,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_25cc3ecd8343d6105afc5855eeaad346"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_25cc3ecd8343d6105afc5855eeaad346^sys_idNOT IN026efa418383d6105afc5855eeaad3ae,d26efa418383d6105afc5855eeaad3c1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_25cc3ecd8343d6105afc5855eeaad346^sys_idNOT IN026efa418383d6105afc5855eeaad3ae,ac079c82834312105afc5855eeaad3af,d26efa418383d6105afc5855eeaad3c1"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
@@ -905,6 +1052,29 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-10 20:13:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>array</element>
+        <help/>
+        <hint/>
+        <label>Array</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_25cc3ecd8343d6105afc5855eeaad346</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 10:35:34</sys_created_on>
+        <sys_id>ac079c82834312105afc5855eeaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 10:35:34</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -936,17 +1106,17 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Convert String into String Array">25cc3ecd8343d6105afc5855eeaad346</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"23bef2818383d6105afc5855eeaad30f","name":"plan","plan_signature":null}}</plan>
-        <snapshot>29de76818383d6105afc5855eeaad385</snapshot>
+        <snapshot>658a94c6834312105afc5855eeaad3b5</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-10 20:14:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>23bef2818383d6105afc5855eeaad30f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:55</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:50:56</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -963,10 +1133,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <description/>
         <flow_priority/>
         <internal_name>convert_string_into_string_array</internal_name>
-        <label_cache>[{"name":"{{action.string}}","label":"action➛String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.separator}}","label":"action➛Separator","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.string}}","label":"action➛String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.separator}}","label":"action➛Separator","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d72782b4-c57e-4838-8b0f-896b3dc5b66e].array}}","label":"step➛Script step➛Array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD98079c826c4312101bcd34269e30178e","child_label":"Element","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"element","child_uiUniqueId":"8c8044bd-d435-4a77-91d6-86466de011e4","uiUniqueId":"51e999a5-25b1-4274-b7a2-8f6a00652242"}}]</label_cache>
         <master>true</master>
         <name>Convert String into String Array</name>
         <natlang/>
+        <outputs/>
         <outputs/>
         <parent_action display_value="Convert String into String Array">25cc3ecd8343d6105afc5855eeaad346</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
@@ -975,7 +1146,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1fbeb2818383d6105afc5855eeaad398</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -983,7 +1154,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:28</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:39:35</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -997,10 +1168,10 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-10 20:14:29</sys_created_on>
         <sys_id>2fbeb2818383d6105afc5855eeaad3ea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:29</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2025-01-13 10:37:21</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
         <variable display_value="Action Status">9fbeb2818383d6105afc5855eeaad3db</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1017,7 +1188,43 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <value>0</value>
         <variable display_value="Don't Treat as Error">9bbeb2818383d6105afc5855eeaad3e0</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_1fbeb2818383d6105afc5855eeaad398^id=1fbeb2818383d6105afc5855eeaad398"/>
+    <sys_element_mapping action="delete_multiple" query="id=1fbeb2818383d6105afc5855eeaad398"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>array</field>
+        <id>1fbeb2818383d6105afc5855eeaad398</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 10:37:21</sys_created_on>
+        <sys_id>3a6794c2834312105afc5855eeaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 10:37:21</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1fbeb2818383d6105afc5855eeaad398</table>
+        <value>{{step[d72782b4-c57e-4838-8b0f-896b3dc5b66e].array}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>1fbeb2818383d6105afc5855eeaad398</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-10 20:14:29</sys_created_on>
+        <sys_id>e7beb2818383d6105afc5855eeaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-10 20:14:29</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1fbeb2818383d6105afc5855eeaad398</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>1fbeb2818383d6105afc5855eeaad398</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-10 20:14:29</sys_created_on>
+        <sys_id>27beb2818383d6105afc5855eeaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-10 20:14:29</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1fbeb2818383d6105afc5855eeaad398</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=1fbeb2818383d6105afc5855eeaad398^sys_idNOT INd3beb2818383d6105afc5855eeaad3b5"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Convert String into String Array">1fbeb2818383d6105afc5855eeaad398</action>
@@ -1036,10 +1243,10 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-10 20:14:28</sys_created_on>
         <sys_id>d3beb2818383d6105afc5855eeaad3b5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:54</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:50:55</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d3beb2818383d6105afc5855eeaad3b5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1050,11 +1257,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-10 20:14:29</sys_created_on>
         <sys_id>97beb2818383d6105afc5855eeaad3d8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:54</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:50:55</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
-// ... code ...&#13;
+&#13;
 outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13;
 })(inputs, outputs);&#13;
 </value>
@@ -1126,7 +1333,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_d3beb2818383d6105afc5855eeaad3b5^id=d3beb2818383d6105afc5855eeaad3b5"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=d3beb2818383d6105afc5855eeaad3b5"/>
     <sys_translated_text action="delete_multiple" query="documentkey=d3beb2818383d6105afc5855eeaad3b5"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=d3beb2818383d6105afc5855eeaad3b5^sys_idNOT IN13beb2818383d6105afc5855eeaad3b9,13beb2818383d6105afc5855eeaad3bd"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d3beb2818383d6105afc5855eeaad3b5^sys_idNOT IN5d8a94c6834312105afc5855eeaad386,9d8a94c6834312105afc5855eeaad39b"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1188,8 +1395,8 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-10 20:14:28</sys_created_on>
-        <sys_id>13beb2818383d6105afc5855eeaad3b9</sys_id>
+        <sys_created_on>2025-01-13 10:50:55</sys_created_on>
+        <sys_id>5d8a94c6834312105afc5855eeaad386</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1197,7 +1404,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:28</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:50:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1238,7 +1445,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>Separator</element>
+        <element>separator</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -1247,7 +1454,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Separator</label>
+        <label>separator</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Script step">d3beb2818383d6105afc5855eeaad3b5</model>
@@ -1271,8 +1478,8 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-10 20:14:28</sys_created_on>
-        <sys_id>13beb2818383d6105afc5855eeaad3bd</sys_id>
+        <sys_created_on>2025-01-13 10:50:55</sys_created_on>
+        <sys_id>9d8a94c6834312105afc5855eeaad39b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1280,7 +1487,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:28</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:50:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1293,20 +1500,20 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=d3beb2818383d6105afc5855eeaad3b5^sys_idNOT IN93beb2818383d6105afc5855eeaad3ce"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d3beb2818383d6105afc5855eeaad3b5^sys_idNOT IN666794c2834312105afc5855eeaad3de"/>
     <sys_complex_object action="INSERT_OR_UPDATE">
         <label/>
-        <name>FD93beb2817183d6103d4954e7591723cd</name>
+        <name>FDaa6794c24a43121019960d0c27a1dadd</name>
         <namespace>FlowDesigner</namespace>
         <scope_name>fe1832aa83b612105afc5855eeaad38f</scope_name>
-        <serialized_content>{"FlowDesigner:FD93beb2817183d6103d4954e7591723cd":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD93beb2817183d6103d4954e7591723cd.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Array String\",\"mandatory\":\"true\",\"child_name\":\"Element\",\"uiUniqueId\":\"29e14326-e597-4f1a-8367-8e2fe4f4c0ea\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD93beb2817183d6103d4954e7591723cd\",\"child_label\":\"Element\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f86fe52b-d2c0-4182-980d-f788fddcbfd7\"}"}}</serialized_content>
+        <serialized_content>{"FlowDesigner:FDaa6794c24a43121019960d0c27a1dadd":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDaa6794c24a43121019960d0c27a1dadd.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Array\",\"mandatory\":\"true\",\"child_name\":\"element\",\"uiUniqueId\":\"51e999a5-25b1-4274-b7a2-8f6a00652242\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDaa6794c24a43121019960d0c27a1dadd\",\"child_label\":\"Element\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"8c8044bd-d435-4a77-91d6-86466de011e4\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-10 20:14:28</sys_created_on>
+        <sys_created_on>2025-01-13 10:37:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>57beb2818383d6105afc5855eeaad3cd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>6e6794c2834312105afc5855eeaad3dd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1314,14 +1521,14 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:54</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:50:55</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Element,child_name=Element,child_type=string,child_type_label=String,child_uiUniqueId=f86fe52b-d2c0-4182-980d-f788fddcbfd7,co_type_name=FD93beb2817183d6103d4954e7591723cd,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=29e14326-e597-4f1a-8367-8e2fe4f4c0ea</attributes>
+        <attributes>child_label=Element,child_name=element,child_type=string,child_type_label=String,child_uiUniqueId=8c8044bd-d435-4a77-91d6-86466de011e4,co_type_name=FDaa6794c24a43121019960d0c27a1dadd,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=51e999a5-25b1-4274-b7a2-8f6a00652242</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1345,7 +1552,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>array_string</element>
+        <element>array</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -1354,7 +1561,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Array String</label>
+        <label>Array</label>
         <mandatory>true</mandatory>
         <max_length>65000</max_length>
         <model display_value="Script step">d3beb2818383d6105afc5855eeaad3b5</model>
@@ -1378,16 +1585,16 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-10 20:14:28</sys_created_on>
-        <sys_id>93beb2818383d6105afc5855eeaad3ce</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2025-01-13 10:37:20</sys_created_on>
+        <sys_id>666794c2834312105afc5855eeaad3de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:28</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:39:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1401,19 +1608,19 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=d3beb2818383d6105afc5855eeaad3b5"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_d3beb2818383d6105afc5855eeaad3b5^sys_idNOT IN1bbeb2818383d6105afc5855eeaad3d1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_d3beb2818383d6105afc5855eeaad3b5^sys_idNOT INe66794c2834312105afc5855eeaad3e1"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>array_string</element>
+        <element>array</element>
         <help/>
         <hint/>
-        <label>Array String</label>
+        <label>Array</label>
         <language>en</language>
         <name>var__m_sys_hub_step_ext_output_d3beb2818383d6105afc5855eeaad3b5</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-10 20:14:28</sys_created_on>
-        <sys_id>1bbeb2818383d6105afc5855eeaad3d1</sys_id>
+        <sys_created_on>2025-01-13 10:37:21</sys_created_on>
+        <sys_id>e66794c2834312105afc5855eeaad3e1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
@@ -1421,7 +1628,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:28</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:37:21</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1594,7 +1801,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1fbeb2818383d6105afc5855eeaad3a0"/>
-    <sys_hub_action_output action="delete_multiple" query="model=1fbeb2818383d6105afc5855eeaad398^sys_idNOT IN9bbeb2818383d6105afc5855eeaad3e0,9fbeb2818383d6105afc5855eeaad3db"/>
+    <sys_hub_action_output action="delete_multiple" query="model=1fbeb2818383d6105afc5855eeaad398^sys_idNOT IN9bbeb2818383d6105afc5855eeaad3e0,9fbeb2818383d6105afc5855eeaad3db,e66794c2834312105afc5855eeaad3f0"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1642,7 +1849,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_1fbeb2818383d6105afc5855eeaad398</name>
         <next_element/>
-        <order>2</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1660,14 +1867,14 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-10 20:14:29</sys_created_on>
         <sys_id>9bbeb2818383d6105afc5855eeaad3e0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:54</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:50:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1729,7 +1936,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_1fbeb2818383d6105afc5855eeaad398</name>
         <next_element/>
-        <order>1</order>
+        <order>2</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1747,14 +1954,14 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-10 20:14:29</sys_created_on>
         <sys_id>9fbeb2818383d6105afc5855eeaad3db</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 20:14:29</sys_updated_on>
+        <sys_updated_on>2025-01-13 10:37:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1769,6 +1976,116 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9fbeb2818383d6105afc5855eeaad3db"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=9fbeb2818383d6105afc5855eeaad3db"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDea6794c264431210bc503df3abf76eef</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fe1832aa83b612105afc5855eeaad38f</scope_name>
+        <serialized_content>{"FlowDesigner:FDea6794c264431210bc503df3abf76eef":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDea6794c264431210bc503df3abf76eef.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Array\",\"mandatory\":\"true\",\"child_name\":\"element\",\"uiUniqueId\":\"6a2ca44b-6277-4df6-90eb-32cdbd332cef\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDea6794c264431210bc503df3abf76eef\",\"child_label\":\"Element\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9e128404-9448-4477-b3fb-b30d00586bff\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 10:37:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae6794c2834312105afc5855eeaad3ef</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 10:50:55</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Element,child_name=element,child_type=string,child_type_label=String,child_uiUniqueId=9e128404-9448-4477-b3fb-b30d00586bff,co_type_name=FDea6794c264431210bc503df3abf76eef,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=6a2ca44b-6277-4df6-90eb-32cdbd332cef</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>array</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Array</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Convert String into String Array">1fbeb2818383d6105afc5855eeaad398</model>
+        <model_id>1fbeb2818383d6105afc5855eeaad398</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_1fbeb2818383d6105afc5855eeaad398</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 10:37:21</sys_created_on>
+        <sys_id>e66794c2834312105afc5855eeaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 10:37:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e66794c2834312105afc5855eeaad3f0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e66794c2834312105afc5855eeaad3f0"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=1fbeb2818383d6105afc5855eeaad398"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=1fbeb2818383d6105afc5855eeaad398^sys_idNOT IN63beb2818383d6105afc5855eeaad3ec"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
@@ -1829,7 +2146,7 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_1fbeb2818383d6105afc5855eeaad398"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_1fbeb2818383d6105afc5855eeaad398^sys_idNOT IN2fbeb2818383d6105afc5855eeaad3e5,9bbeb2818383d6105afc5855eeaad3df"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_1fbeb2818383d6105afc5855eeaad398^sys_idNOT IN2fbeb2818383d6105afc5855eeaad3e5,9bbeb2818383d6105afc5855eeaad3df,e26794c2834312105afc5855eeaad3f4"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>
@@ -1873,6 +2190,29 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-10 20:14:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>array</element>
+        <help/>
+        <hint/>
+        <label>Array</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1fbeb2818383d6105afc5855eeaad398</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 10:37:21</sys_created_on>
+        <sys_id>e26794c2834312105afc5855eeaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 10:37:21</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>

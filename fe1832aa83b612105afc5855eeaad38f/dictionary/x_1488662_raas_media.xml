@@ -27,7 +27,7 @@
         </element>
         <element label="Synopsis" max_length="4000" name="synopsis" type="string"/>
         <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
-        <element label="Genre" max_length="40" name="genre" type="glide_list"/>
+        <element label="Genre" max_length="1000" name="genre" reference="x_1488662_raas_genre" type="glide_list"/>
         <element label="Website" max_length="40" name="website" type="url"/>
         <element default="0" label="Avg Rate" max_length="255" name="avg_rate" type="float"/>
         <element choice="1" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="genre" table="x_1488662_raas_media">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="type" table="x_1488662_raas_suggestions">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Genre</column_label>
+        <column_label>Type</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,21 +26,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>genre</element>
+        <element>type</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">glide_list</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
-        <max_length>1000</max_length>
-        <name>x_1488662_raas_media</name>
+        <max_length>40</max_length>
+        <name>x_1488662_raas_suggestions</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_1488662_raas_genre">x_1488662_raas_genre</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -46,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-03 15:04:35</sys_created_on>
-        <sys_name>Genre</sys_name>
+        <sys_created_on>2025-01-13 19:57:00</sys_created_on>
+        <sys_name>Type</sys_name>
         <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
-        <sys_update_name>sys_dictionary_x_1488662_raas_media_genre</sys_update_name>
-        <sys_updated_by>RaaS_Tester</sys_updated_by>
-        <sys_updated_on>2025-01-13 18:23:32</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_1488662_raas_suggestions_type</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 19:57:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
