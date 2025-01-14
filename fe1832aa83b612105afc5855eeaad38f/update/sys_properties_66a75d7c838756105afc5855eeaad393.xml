@@ -11,14 +11,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 18:05:39</sys_created_on>
         <sys_id>66a75d7c838756105afc5855eeaad393</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>x_1488662_raas.integration_endpoint</sys_name>
         <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name>sys_properties_66a75d7c838756105afc5855eeaad393</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 18:16:14</sys_updated_on>
+        <sys_updated_by>RaaS_Tester</sys_updated_by>
+        <sys_updated_on>2025-01-14 13:13:36</sys_updated_on>
         <type>string</type>
         <value>http://www.omdbapi.com/</value>
         <write_roles/>
