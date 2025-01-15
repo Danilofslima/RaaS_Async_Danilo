@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>340112c5838f96105afc5855eeaad37b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Mostrar o integration error somente quando o integration_state for "integration failure"</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name>sys_ui_policy_340112c5838f96105afc5855eeaad37b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 16:55:11</sys_updated_on>
+        <sys_updated_on>2025-01-15 00:45:03</sys_updated_on>
         <table>x_1488662_raas_media</table>
         <ui_type>0</ui_type>
         <view/>

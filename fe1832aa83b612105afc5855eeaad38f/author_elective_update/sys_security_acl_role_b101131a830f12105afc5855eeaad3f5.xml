@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 18:48:12</sys_created_on>
+        <sys_id>b101131a830f12105afc5855eeaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1488662_raas_m2m_actor_media.*.x_1488662_raas.admin</sys_name>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_security_acl display_value="x_1488662_raas_m2m_actor_media.*">fe1fcb16830f12105afc5855eeaad369</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b101131a830f12105afc5855eeaad3f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 18:48:12</sys_updated_on>
+        <sys_user_role display_value="x_1488662_raas.admin" name="x_1488662_raas.admin">721832aa83b612105afc5855eeaad3ab</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</application>
+        <file_path/>
+        <instance_id>bce32464db12b5584162684e1396197c</instance_id>
+        <instance_name>dev199631</instance_name>
+        <name>sys_security_acl_role_b101131a830f12105afc5855eeaad3f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 18:48:12</sys_created_on><sys_id>b101131a830f12105afc5855eeaad3f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1488662_raas_m2m_actor_media.*.x_1488662_raas.admin</sys_name><sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package><sys_policy/><sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope><sys_security_acl display_value="x_1488662_raas_m2m_actor_media.*">fe1fcb16830f12105afc5855eeaad369</sys_security_acl><sys_update_name>sys_security_acl_role_b101131a830f12105afc5855eeaad3f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 18:48:12</sys_updated_on><sys_user_role display_value="x_1488662_raas.admin" name="x_1488662_raas.admin">721832aa83b612105afc5855eeaad3ab</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>332903562</payload_hash>
+        <record_name>x_1488662_raas_m2m_actor_media.*.x_1488662_raas.admin</record_name>
+        <reverted_from/>
+        <source>81c9fc3783b212105afc5855eeaad358</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 18:48:12</sys_created_on>
+        <sys_id>ae51dfd6830f12105afc5855eeaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19466250ea60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 18:48:12</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a251dfd6de0f1210f0d0f0807a1e5ee2</update_guid>
+        <update_guid_history>a251dfd6de0f1210f0d0f0807a1e5ee2:332903562</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1488662_raas_m2m_actor_media.*.x_1488662_raas.admin">e0ce2bda838f12105afc5855eeaad39a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 20:56:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>2f510806a1a343e685c8d8f1fa7a9924</sys_id>
+        <sys_metadata>b101131a830f12105afc5855eeaad3f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1488662_raas_m2m_actor_media.*.x_1488662_raas.admin</sys_name>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_scope_delete display_value="">2fb42e5f968d4e2e9fc58c8dbd520281</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_b101131a830f12105afc5855eeaad3f5</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_b101131a830f12105afc5855eeaad3f5">ae51dfd6830f12105afc5855eeaad3e2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 20:56:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
