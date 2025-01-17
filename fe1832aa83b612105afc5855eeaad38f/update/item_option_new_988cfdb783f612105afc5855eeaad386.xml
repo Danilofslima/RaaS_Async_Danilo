@@ -58,7 +58,10 @@
         <record/>
         <record_producer_table>x_1488662_raas_review</record_producer_table>
         <reference>x_1488662_raas_media</reference>
-        <reference_qual/>
+        <reference_qual>javascript: new x_1488662_raas.RaaSUtils().refQualMedia()&#13;
+&#13;
+&#13;
+</reference_qual>
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
@@ -79,14 +82,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-06 18:14:37</sys_created_on>
         <sys_id>988cfdb783f612105afc5855eeaad386</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Qual Media você quer avaliar?</sys_name>
         <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name>item_option_new_988cfdb783f612105afc5855eeaad386</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-07 13:43:17</sys_updated_on>
+        <sys_updated_on>2025-01-16 22:13:43</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -94,7 +97,7 @@
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>

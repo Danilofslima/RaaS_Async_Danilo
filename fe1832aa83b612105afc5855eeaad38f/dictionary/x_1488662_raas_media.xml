@@ -21,6 +21,7 @@
         <element label="Language" max_length="250" name="language" type="string"/>
         <element choice="1" default="1" label="State" max_length="40" name="state" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Duplicate" sequence="150" value="7"/>
                 <element inactive_on_update="false" label="Complete" sequence="200" value="3"/>
                 <element inactive_on_update="false" label="Draft" sequence="100" value="1"/>
             </choice>

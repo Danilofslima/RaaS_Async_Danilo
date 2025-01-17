@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>title</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-16 16:02:58</sys_created_on>
+        <sys_id>09aef84783cbd2105afc5855eeaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>title</sys_name>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_09aef84783cbd2105afc5855eeaad3e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 16:02:58</sys_updated_on>
+        <table>x_1488662_raas_media</table>
+        <ui_policy display_value="Set Mandatory fields for integration happens ">616eb44783cbd2105afc5855eeaad370</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=09aef84783cbd2105afc5855eeaad3e3"/>
+</record_update>

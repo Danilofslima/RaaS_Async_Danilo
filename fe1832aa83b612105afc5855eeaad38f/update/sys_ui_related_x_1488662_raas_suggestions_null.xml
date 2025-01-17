@@ -2,17 +2,31 @@
     <sys_ui_related sys_domain="global" table="x_1488662_raas_suggestions" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Suggestion - Default view" name="x_1488662_raas_suggestions" related_list="NULL" sys_domain="global" view="Default view">9377e60a830f12105afc5855eeaad3e1</list_id>
+            <list_id display_value="Suggestion - Default view" name="x_1488662_raas_suggestions" related_list="NULL" sys_domain="global" view="Default view">9f2c9647838312105afc5855eeaad3a0</list_id>
             <order_by/>
             <position>0</position>
             <related_list>sysapproval_approver.sysapproval</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-13 21:06:49</sys_created_on>
-            <sys_id>1377e60a830f12105afc5855eeaad3e3</sys_id>
+            <sys_created_on>2025-01-16 22:51:20</sys_created_on>
+            <sys_id>1b2c9647838312105afc5855eeaad3a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-13 21:06:49</sys_updated_on>
+            <sys_updated_on>2025-01-16 22:51:20</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Suggestion - Default view" name="x_1488662_raas_suggestions" related_list="NULL" sys_domain="global" view="Default view">9f2c9647838312105afc5855eeaad3a0</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:d4a91683838312105afc5855eeaad3d2</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-16 22:51:20</sys_created_on>
+            <sys_id>532c9647838312105afc5855eeaad3a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-16 22:51:20</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Suggestion - Default view</calculated_name>
@@ -23,10 +37,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-13 21:06:49</sys_created_on>
+            <sys_created_on>2025-01-16 22:51:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9377e60a830f12105afc5855eeaad3e1</sys_id>
+            <sys_id>9f2c9647838312105afc5855eeaad3a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Suggestion - Default view</sys_name>
             <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
@@ -34,7 +48,7 @@
             <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
             <sys_update_name>sys_ui_related_x_1488662_raas_suggestions_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-13 21:06:49</sys_updated_on>
+            <sys_updated_on>2025-01-16 22:51:19</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
