@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata">
+    <par_dashboard_user_metadata action="DELETE">
+        <background_color/>
+        <cache_expiration_time>24</cache_expiration_time>
+        <card_bg_image/>
+        <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
+        <created_on>2025-01-17 18:04:11</created_on>
+        <dashboard display_value="Review">7e04aedb834752105afc5855eeaad3d6</dashboard>
+        <enable_data_cache>false</enable_data_cache>
+        <include_custom_insights>true</include_custom_insights>
+        <include_key_contributors>true</include_key_contributors>
+        <include_kpi_signals>true</include_kpi_signals>
+        <include_predictive_target>true</include_predictive_target>
+        <include_predictive_thresholds>true</include_predictive_thresholds>
+        <include_process_mining>true</include_process_mining>
+        <include_severity>true</include_severity>
+        <include_target>true</include_target>
+        <include_thresholds>true</include_thresholds>
+        <include_trends>true</include_trends>
+        <include_widget_notification>true</include_widget_notification>
+        <last_updated_on>2025-01-17 18:21:07</last_updated_on>
+        <po_project_id_list>[]</po_project_id_list>
+        <refresh_information>false</refresh_information>
+        <refresh_interval/>
+        <requested_by_user/>
+        <schedule_repetition>false</schedule_repetition>
+        <show_insights_panel>true</show_insights_panel>
+        <sys_class_name>par_dashboard_user_metadata</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 18:04:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32046a5f834752105afc5855eeaad37e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name>par_dashboard_user_metadata_32046a5f834752105afc5855eeaad37e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 18:21:07</sys_updated_on>
+        <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
+        <use_custom_tab_colors>false</use_custom_tab_colors>
+    </par_dashboard_user_metadata>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</application>
+        <file_path/>
+        <instance_id>bce32464db12b5584162684e1396197c</instance_id>
+        <instance_name>dev199631</instance_name>
+        <name>par_dashboard_user_metadata_32046a5f834752105afc5855eeaad37e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata"><par_dashboard_user_metadata action="INSERT_OR_UPDATE"><background_color/><cache_expiration_time>24</cache_expiration_time><card_bg_image/><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><created_on>2025-01-17 18:04:11</created_on><dashboard display_value="Review">7e04aedb834752105afc5855eeaad3d6</dashboard><enable_data_cache>false</enable_data_cache><include_custom_insights>true</include_custom_insights><include_key_contributors>true</include_key_contributors><include_kpi_signals>true</include_kpi_signals><include_predictive_target>true</include_predictive_target><include_predictive_thresholds>true</include_predictive_thresholds><include_process_mining>true</include_process_mining><include_severity>true</include_severity><include_target>true</include_target><include_thresholds>true</include_thresholds><include_trends>true</include_trends><include_widget_notification>true</include_widget_notification><last_updated_on>2025-01-17 18:21:07</last_updated_on><po_project_id_list>[]</po_project_id_list><refresh_information>false</refresh_information><refresh_interval/><requested_by_user/><schedule_repetition>false</schedule_repetition><show_insights_panel>true</show_insights_panel><sys_class_name>par_dashboard_user_metadata</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-17 18:04:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>32046a5f834752105afc5855eeaad37e</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package><sys_policy/><sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope><sys_update_name>par_dashboard_user_metadata_32046a5f834752105afc5855eeaad37e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-17 18:21:07</sys_updated_on><updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user><use_custom_tab_colors>false</use_custom_tab_colors></par_dashboard_user_metadata></record_update>]]></payload>
+        <payload_hash>521879807</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>81c9fc3783b212105afc5855eeaad358</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 18:21:07</sys_created_on>
+        <sys_id>cfe7e693838752105afc5855eeaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194757f58870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 18:21:07</sys_updated_on>
+        <type>PAR Dashboard Metadata</type>
+        <update_guid>47e7e69344875210aa48ce227eeb2a8b</update_guid>
+        <update_guid_history>47e7e69344875210aa48ce227eeb2a8b:521879807,7817e653518752106d821b3e30a2e084:1497555273,72046a5fd04752103563758dbe55b081:-1277653751</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">11cce61b838752105afc5855eeaad3fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 18:42:18</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_user_metadata">par_dashboard_user_metadata</sys_db_object>
+        <sys_id>8796c0b6e11c40dab9d158a37cf15d39</sys_id>
+        <sys_metadata>32046a5f834752105afc5855eeaad37e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_scope_delete display_value="">2fb42e5f968d4e2e9fc58c8dbd520281</sys_scope_delete>
+        <sys_update_name>par_dashboard_user_metadata_32046a5f834752105afc5855eeaad37e</sys_update_name>
+        <sys_update_version display_value="par_dashboard_user_metadata_32046a5f834752105afc5855eeaad37e">cfe7e693838752105afc5855eeaad38b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 18:42:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

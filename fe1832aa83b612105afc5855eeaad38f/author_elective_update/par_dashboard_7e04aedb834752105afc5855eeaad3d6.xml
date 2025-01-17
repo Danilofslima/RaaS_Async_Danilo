@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="DELETE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <experience/>
+        <grid>48</grid>
+        <name>Review</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 18:04:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7e04aedb834752105afc5855eeaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Review</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name>par_dashboard_7e04aedb834752105afc5855eeaad3d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 18:04:11</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</application>
+        <file_path/>
+        <instance_id>bce32464db12b5584162684e1396197c</instance_id>
+        <instance_name>dev199631</instance_name>
+        <name>par_dashboard_7e04aedb834752105afc5855eeaad3d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard"><par_dashboard action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><experience/><grid>48</grid><name>Review</name><sys_class_name>par_dashboard</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-17 18:04:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7e04aedb834752105afc5855eeaad3d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Review</sys_name><sys_overrides/><sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package><sys_policy/><sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope><sys_update_name>par_dashboard_7e04aedb834752105afc5855eeaad3d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-17 18:04:11</sys_updated_on><sys_ux_app_config/><sys_ux_app_route/><sys_ux_macroponent/><sys_ux_screen/><sys_ux_screen_type/></par_dashboard></record_update>]]></payload>
+        <payload_hash>-1994201392</payload_hash>
+        <record_name>Review</record_name>
+        <reverted_from/>
+        <source>81c9fc3783b212105afc5855eeaad358</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 18:04:11</sys_created_on>
+        <sys_id>7e046a5f834752105afc5855eeaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194756fd6760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 18:04:11</sys_updated_on>
+        <type>PAR Dashboard</type>
+        <update_guid>3604aedbd64752101b53a9e4d84407d9</update_guid>
+        <update_guid_history>3604aedbd64752101b53a9e4d84407d9:-1994201392</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Review">0dcc6a17838752105afc5855eeaad389</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 18:42:18</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard">par_dashboard</sys_db_object>
+        <sys_id>35494543a99847d4ad8293fc917af410</sys_id>
+        <sys_metadata>7e04aedb834752105afc5855eeaad3d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Review</sys_name>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_scope_delete display_value="">2fb42e5f968d4e2e9fc58c8dbd520281</sys_scope_delete>
+        <sys_update_name>par_dashboard_7e04aedb834752105afc5855eeaad3d6</sys_update_name>
+        <sys_update_version display_value="par_dashboard_7e04aedb834752105afc5855eeaad3d6">7e046a5f834752105afc5855eeaad379</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 18:42:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
