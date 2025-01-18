@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">4a4a5b53838b52105afc5855eeaad3fd</canvas>
+        <component display_value="Horizontal bar">85855283b7e03010097cb81cde11a91d</component>
+        <component_props>{"selectedElements":[],"configVersion":"23.0.0-ci-SNAPSHOT","chartVariation":"stacked","yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"showClosestSeriesOnHover":true,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":false,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":true,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"colorConfig":{"type":"singleColor","values":[{"color":"0c2b2cd75b712110e5ba6e8a1d81c7ba","metric":"ZEdGaWJHVjRYekUwT0RnMk5qSmZjbUZoYzE5eVpYWnBaWGN4TnpNM01UTTVOVFUxTnpVeDE3MzcxMzk1NTczNjg="}]},"yAxisHidden":false,"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Review","sourceType":"table","tableOrViewName":"x_1488662_raas_review","filterQuery":"state=3","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE0ODg2NjJfcmFhc19yZXZpZXcxNzM3MTM5NTU1NzUx","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"6. TOP 5 reviewed Medias","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4XzE0ODg2NjJfcmFhc19yZXZpZXcxNzM3MTM5NTU1NzUx","id":"ZEdGaWJHVjRYekUwT0RnMk5qSmZjbUZoYzE5eVpYWnBaWGN4TnpNM01UTTVOVFUxTnpVeDE3MzcxMzk1NTczNjg=","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":false}}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE0ODg2NjJfcmFhc19yZXZpZXcxNzM3MTM5NTU1NzUx","groupByField":"media.title","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":5,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"214jwsja","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"headerTitle","value":"6. TOP 5 reviewed Medias","noDebounce":true,"propLabel":"Chart title"}</component_props>
+        <h>14</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 22:01:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>164a9b53838b52105afc5855eeaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_update_name>par_dashboard_widget_164a9b53838b52105afc5855eeaad347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 22:01:10</sys_updated_on>
+        <visualization/>
+        <w>15</w>
+        <widget_props/>
+        <x>0</x>
+        <y>40</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</application>
+        <file_path/>
+        <instance_id>bce32464db12b5584162684e1396197c</instance_id>
+        <instance_name>dev199631</instance_name>
+        <name>par_dashboard_widget_164a9b53838b52105afc5855eeaad347</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">4a4a5b53838b52105afc5855eeaad3fd</canvas><component display_value="Horizontal bar">85855283b7e03010097cb81cde11a91d</component><component_props>{"selectedElements":[],"configVersion":"23.0.0-ci-SNAPSHOT","chartVariation":"stacked","yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"showClosestSeriesOnHover":true,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":false,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":true,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"colorConfig":{"type":"singleColor","values":[{"color":"0c2b2cd75b712110e5ba6e8a1d81c7ba","metric":"ZEdGaWJHVjRYekUwT0RnMk5qSmZjbUZoYzE5eVpYWnBaWGN4TnpNM01UTTVOVFUxTnpVeDE3MzcxMzk1NTczNjg="}]},"yAxisHidden":false,"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Review","sourceType":"table","tableOrViewName":"x_1488662_raas_review","filterQuery":"state=3","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE0ODg2NjJfcmFhc19yZXZpZXcxNzM3MTM5NTU1NzUx","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"6. TOP 5 reviewed Medias","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4XzE0ODg2NjJfcmFhc19yZXZpZXcxNzM3MTM5NTU1NzUx","id":"ZEdGaWJHVjRYekUwT0RnMk5qSmZjbUZoYzE5eVpYWnBaWGN4TnpNM01UTTVOVFUxTnpVeDE3MzcxMzk1NTczNjg=","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":false}}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE0ODg2NjJfcmFhc19yZXZpZXcxNzM3MTM5NTU1NzUx","groupByField":"media.title","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":5,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"214jwsja","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"headerTitle","value":"6. TOP 5 reviewed Medias","noDebounce":true,"propLabel":"Chart title"}</component_props><h>14</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-17 22:01:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>164a9b53838b52105afc5855eeaad347</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package><sys_policy/><sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope><sys_update_name>par_dashboard_widget_164a9b53838b52105afc5855eeaad347</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-17 22:01:10</sys_updated_on><visualization/><w>15</w><widget_props/><x>0</x><y>40</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-568536125</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>81c9fc3783b212105afc5855eeaad358</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 22:01:10</sys_created_on>
+        <sys_id>924a9b53838b52105afc5855eeaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1947648cda90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 22:01:10</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>964a9b53de8b5210adf16ff6cb60f948</update_guid>
+        <update_guid_history>964a9b53de8b5210adf16ff6cb60f948:-568536125</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">517dd797838b52105afc5855eeaad328</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 22:15:01</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>2ecb535878554e9e9c363206b3220964</sys_id>
+        <sys_metadata>164a9b53838b52105afc5855eeaad347</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_scope_delete display_value="">2fb42e5f968d4e2e9fc58c8dbd520281</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_164a9b53838b52105afc5855eeaad347</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_164a9b53838b52105afc5855eeaad347">924a9b53838b52105afc5855eeaad349</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 22:15:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

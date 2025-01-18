@@ -2,7 +2,7 @@
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">78dc6a1b838752105afc5855eeaad33a</canvas>
         <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
-        <component_props>{"table":"x_1488662_raas_media","columnPreferenceKey":"","fixedQuery":"state=3","followFilters":true,"listTitle":"7. TOP 5 Media best rated","columns":"","query":"active=true^ORDERBYDESCavg_rate","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"showBorder":false,"bare":true,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"isDashboard":true,"id":"query","value":"active=true^ORDERBYDESCavg_rate","noDebounce":true,"propLabel":"filter"}</component_props>
+        <component_props>{"table":"x_1488662_raas_media","columnPreferenceKey":"","fixedQuery":"state=3","followFilters":true,"listTitle":"7. TOP 5 Best Rated Titles","columns":"","query":"active=true^ORDERBYDESCavg_rate","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"showBorder":false,"bare":true,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"isDashboard":true,"id":"listTitle","value":"7. TOP 5 Best Rated Titles","noDebounce":true,"propLabel":"Title"}</component_props>
         <h>13</h>
         <name/>
         <stored_component/>
@@ -12,7 +12,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a2abb61f83c752105afc5855eeaad341</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
@@ -20,11 +20,11 @@
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
         <sys_update_name>par_dashboard_widget_a2abb61f83c752105afc5855eeaad341</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-17 20:23:51</sys_updated_on>
+        <sys_updated_on>2025-01-17 23:49:29</sys_updated_on>
         <visualization/>
         <w>48</w>
         <widget_props/>
         <x>0</x>
-        <y>40</y>
+        <y>27</y>
     </par_dashboard_widget>
 </record_update>
