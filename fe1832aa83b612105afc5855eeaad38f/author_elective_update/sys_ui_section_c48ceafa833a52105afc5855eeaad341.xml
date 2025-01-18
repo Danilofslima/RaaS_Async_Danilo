@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Comments" section_id="c48ceafa833a52105afc5855eeaad341" sys_domain="global" table="x_1488662_raas_suggestions" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reproval_reason</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-18 11:34:44</sys_created_on>
+            <sys_id>7f749aa7830b92105afc5855eeaad36f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comments" display_value="Comments" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">c48ceafa833a52105afc5855eeaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-18 11:34:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Comments</caption>
+            <header>false</header>
+            <name>x_1488662_raas_suggestions</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-03 19:08:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c48ceafa833a52105afc5855eeaad341</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1488662_raas_suggestions</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+            <sys_update_name>sys_ui_section_c48ceafa833a52105afc5855eeaad341</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-03 19:09:52</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</application>
+        <file_path/>
+        <instance_id>bce32464db12b5584162684e1396197c</instance_id>
+        <instance_name>dev199631</instance_name>
+        <name>sys_ui_section_c48ceafa833a52105afc5855eeaad341</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Comments" section_id="c48ceafa833a52105afc5855eeaad341" sys_domain="global" table="x_1488662_raas_suggestions" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>reproval_reason</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-18 11:34:44</sys_created_on><sys_id>7f749aa7830b92105afc5855eeaad36f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Comments" display_value="Comments" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">c48ceafa833a52105afc5855eeaad341</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-18 11:34:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Comments</caption><header>false</header><name>x_1488662_raas_suggestions</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-03 19:08:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c48ceafa833a52105afc5855eeaad341</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1488662_raas_suggestions</sys_name><sys_overrides/><sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package><sys_policy/><sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope><sys_update_name>sys_ui_section_c48ceafa833a52105afc5855eeaad341</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-03 19:09:52</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>936954548</payload_hash>
+        <record_name>Suggestion</record_name>
+        <reverted_from/>
+        <source>81c9fc3783b212105afc5855eeaad358</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-18 11:34:44</sys_created_on>
+        <sys_id>bb749aa7830b92105afc5855eeaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1947931a6bb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-18 11:34:44</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>73749aa7970b921066cb095715713671</update_guid>
+        <update_guid_history>73749aa7970b921066cb095715713671:936954548,b3819aa3b50b9210fb37c183bb23c6d7:-1447442540,78dca23e463a5210928cb1cea1d39459:816384751,9c8c2efae63a5210568ba42c93ccdc43:663278413</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-18 11:50:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>9c330e727cfe47f2a16eeddfa6353bf1</sys_id>
+        <sys_metadata>c48ceafa833a52105afc5855eeaad341</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Comments</sys_name>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_parent display_value="Suggestion">4379aaf6833a52105afc5855eeaad334</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_scope_delete display_value="">2fb42e5f968d4e2e9fc58c8dbd520281</sys_scope_delete>
+        <sys_update_name>sys_ui_section_c48ceafa833a52105afc5855eeaad341</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_c48ceafa833a52105afc5855eeaad341">bb749aa7830b92105afc5855eeaad371</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-18 11:50:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
