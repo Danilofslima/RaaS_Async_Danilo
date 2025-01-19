@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_1488662_raas_suggestions">short_description=Media not Found^ORshort_description=^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="=" or="false" value="Media not Found"/>
-            <item endquery="false" field="short_description" goto="false" newquery="false" operator="=" or="true" value=""/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </conditions>
+        <conditions/>
         <description/>
         <global>true</global>
         <inherit>false</inherit>
@@ -12,7 +9,7 @@
         <model_id/>
         <model_table/>
         <on_load>true</on_load>
-        <order>100</order>
+        <order>1</order>
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() {
@@ -22,22 +19,22 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Hide Preview if is not integrating</short_description>
+        <short_description>hide Short Description</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-18 11:37:05</sys_created_on>
+        <sys_created_on>2025-01-19 01:25:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>95f416e7830b92105afc5855eeaad3b6</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Hide Preview if is not integrating</sys_name>
+        <sys_id>c182597b8387d2105afc5855eeaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hide Short Description</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
-        <sys_update_name>sys_ui_policy_95f416e7830b92105afc5855eeaad3b6</sys_update_name>
+        <sys_update_name>sys_ui_policy_c182597b8387d2105afc5855eeaad3c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-19 02:09:57</sys_updated_on>
+        <sys_updated_on>2025-01-19 01:25:28</sys_updated_on>
         <table>x_1488662_raas_suggestions</table>
         <ui_type>0</ui_type>
         <view/>

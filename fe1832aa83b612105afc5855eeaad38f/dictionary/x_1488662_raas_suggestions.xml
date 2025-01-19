@@ -3,6 +3,7 @@
         <element label="Media" max_length="32" name="media" reference="x_1488662_raas_media" type="reference"/>
         <element label="Original Title" max_length="50" name="original_title" type="string"/>
         <element label="Atores" max_length="500" name="atores" type="string"/>
+        <element label="Media Type" max_length="100" name="media_type" type="string"/>
         <element label="Poster" max_length="500" name="poster" type="url"/>
         <element label="Reproval reason" max_length="4000" name="reproval_reason" type="string"/>
         <element label="Synopsis" max_length="2000" name="synopsis" type="string"/>

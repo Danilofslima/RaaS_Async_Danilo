@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Sugestion Preview by OMDB" section_id="7ab4dea7830b92105afc5855eeaad302" sys_domain="global" table="x_1488662_raas_suggestions" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_1488662_raas_poster.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-18 12:04:32</sys_created_on>
+            <sys_id>5c5b5a23834b92105afc5855eeaad33d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="PosterPreview">7eaf0223830b92105afc5855eeaad3d3</sys_ui_formatter>
+            <sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-18 12:04:32</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-18 12:04:32</sys_created_on>
+            <sys_id>545b5a23834b92105afc5855eeaad33e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-18 12:04:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>original_title</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-18 12:04:32</sys_created_on>
+            <sys_id>d85b5a23834b92105afc5855eeaad33e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-18 12:04:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-18 12:04:32</sys_created_on>
+            <sys_id>505b5a23834b92105afc5855eeaad33f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-18 12:04:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>atores</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-18 12:04:32</sys_created_on>
+            <sys_id>d45b5a23834b92105afc5855eeaad33f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-18 12:04:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>diretores</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-18 12:04:32</sys_created_on>
+            <sys_id>5c5b5a23834b92105afc5855eeaad33f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-18 12:04:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>synopsis</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-18 12:04:32</sys_created_on>
+            <sys_id>d05b5a23834b92105afc5855eeaad340</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-18 12:04:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>poster</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-18 12:04:32</sys_created_on>
+            <sys_id>585b5a23834b92105afc5855eeaad340</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-18 12:04:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Sugestion Preview by OMDB</caption>
+            <header>false</header>
+            <name>x_1488662_raas_suggestions</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-18 11:35:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ab4dea7830b92105afc5855eeaad302</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>x_1488662_raas_suggestions</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+            <sys_update_name>sys_ui_section_7ab4dea7830b92105afc5855eeaad302</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-19 00:21:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</application>
+        <file_path/>
+        <instance_id>bce32464db12b5584162684e1396197c</instance_id>
+        <instance_name>dev199631</instance_name>
+        <name>sys_ui_section_7ab4dea7830b92105afc5855eeaad302</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Sugestion Preview by OMDB" section_id="7ab4dea7830b92105afc5855eeaad302" sys_domain="global" table="x_1488662_raas_suggestions" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>x_1488662_raas_poster.xml</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-18 12:04:32</sys_created_on><sys_id>5c5b5a23834b92105afc5855eeaad33d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="PosterPreview">7eaf0223830b92105afc5855eeaad3d3</sys_ui_formatter><sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-18 12:04:32</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-18 12:04:32</sys_created_on><sys_id>545b5a23834b92105afc5855eeaad33e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-18 12:04:32</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>original_title</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-18 12:04:32</sys_created_on><sys_id>d85b5a23834b92105afc5855eeaad33e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-18 12:04:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>year</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-18 12:04:32</sys_created_on><sys_id>505b5a23834b92105afc5855eeaad33f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-18 12:04:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>atores</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-18 12:04:32</sys_created_on><sys_id>d45b5a23834b92105afc5855eeaad33f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-18 12:04:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>diretores</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-18 12:04:32</sys_created_on><sys_id>5c5b5a23834b92105afc5855eeaad33f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-18 12:04:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>synopsis</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-18 12:04:32</sys_created_on><sys_id>d05b5a23834b92105afc5855eeaad340</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-18 12:04:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>poster</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-18 12:04:32</sys_created_on><sys_id>585b5a23834b92105afc5855eeaad340</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Sugestion Preview by OMDB" display_value="Sugestion Preview by OMDB" name="x_1488662_raas_suggestions" sys_domain="global" view="Default view">7ab4dea7830b92105afc5855eeaad302</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-18 12:04:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Sugestion Preview by OMDB</caption><header>false</header><name>x_1488662_raas_suggestions</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-18 11:35:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7ab4dea7830b92105afc5855eeaad302</sys_id><sys_mod_count>3</sys_mod_count><sys_name>x_1488662_raas_suggestions</sys_name><sys_overrides/><sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package><sys_policy/><sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope><sys_update_name>sys_ui_section_7ab4dea7830b92105afc5855eeaad302</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-19 00:21:47</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1283187940</payload_hash>
+        <record_name>Suggestion</record_name>
+        <reverted_from/>
+        <source>81c9fc3783b212105afc5855eeaad358</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-19 00:21:47</sys_created_on>
+        <sys_id>bf048db78347d2105afc5855eeaad339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1947befe6180000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-19 00:21:47</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>77048db76647d210d9d42992a4a0f039</update_guid>
+        <update_guid_history>77048db76647d210d9d42992a4a0f039:-1283187940,145b5a23394b9210432161e390801f42:1848475932,66da9eeff40b9210a139d3641686f661:-1233954226,6c98962fa40b921032a3d82b77ad40a1:1484635538,e49752ebb80b92102888405628eb275d:916913836,ab77deab210b92104fe8527f5cb7b4d5:-896293194,1d675eab690b9210182721945432d84e:-1628064476,76b4dea77a0b9210c82242415764569e:-896293194</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-19 00:28:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>4158d9cae80b41c888e40931df51d610</sys_id>
+        <sys_metadata>7ab4dea7830b92105afc5855eeaad302</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sugestion Preview by OMDB</sys_name>
+        <sys_package display_value="RaaS Danilo" source="x_1488662_raas">fe1832aa83b612105afc5855eeaad38f</sys_package>
+        <sys_parent display_value="Suggestion">4379aaf6833a52105afc5855eeaad334</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS Danilo">fe1832aa83b612105afc5855eeaad38f</sys_scope>
+        <sys_scope_delete display_value="">2fb42e5f968d4e2e9fc58c8dbd520281</sys_scope_delete>
+        <sys_update_name>sys_ui_section_7ab4dea7830b92105afc5855eeaad302</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_7ab4dea7830b92105afc5855eeaad302">bf048db78347d2105afc5855eeaad339</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-19 00:28:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
